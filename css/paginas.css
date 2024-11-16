@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Exo 2", sans-serif;
+    background-color: #FDF2E9;
+}
+.corpo{
+    margin: 0px 500px 30px 75px; /* top right bottom left */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    gap: 20px; /* Define o espaçamento entre os itens */
+}
+img{
+    border-radius: 10px;
+    height: 60vh;
+}
+h2{
+    color: #FFE194;
+    font-size: 38px;
+}
+b{
+    font-size: 25px;
+}
+strong{
+    font-size: 22px;
+}
+p{
+    font-size: 22px;
+}
+a{
+    font-size: 18px;
+}
+.videos{
+    display: flex;
+    border: 10px;
+    justify-content: space-around;
+}
+  /* Layout de Cards */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 calc(30% - 20px);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card b {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  

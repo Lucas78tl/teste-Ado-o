@@ -1,0 +1,48 @@
+nav{
+    background-color: #A2D2FF;
+}
+
+.logo{
+    float: left;
+    display: block;
+    
+}
+li.espacamento {
+    margin-left: 30px;
+    margin-right: 70vh; /* Espaço maior para o item específico */
+  }
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: #4A4A4A;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: #B5E48C;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    background-color: #A2D2FF;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
